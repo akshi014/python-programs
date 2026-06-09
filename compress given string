@@ -1,0 +1,14 @@
+s=input()
+res=""
+if(s):
+   curr=s[0]
+   c=1
+   for char in s[1:]:
+       if(char==curr):
+           c+=1
+       else:
+           res+=curr+str(c) 
+           curr=char
+           c=1
+   res+=curr+str(c) 
+print(res)
