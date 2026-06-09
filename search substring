@@ -1,0 +1,7 @@
+s=input()
+t=input()
+ind=s.find(t)
+if ind!=-1:
+    print(f"Starts at position {ind+1}")
+else:
+    print(-1)
