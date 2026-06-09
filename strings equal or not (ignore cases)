@@ -1,0 +1,8 @@
+s1=input()
+s2=input()
+if(len(s1)!=len(s2)):
+    print("No")
+else:
+    a=[ord(c)+32 if 'A'<=c<='Z' else ord(c) for c in s1]
+    b=[ord(c)+32 if 'A'<=c<='Z' else ord(c) for c in s2]
+    print("Yes" if a==b else "No")
