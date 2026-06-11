@@ -1,5 +1,5 @@
 s=input()
 if(len(s)==10 and s.isdigit()):
-    print("valid mobile number")
+    print("Valid mobile number")
 else:
     print("Invalid mobile number")
