@@ -1,0 +1,12 @@
+n=int(input())
+f=0
+s=-1
+while n>0:
+    d=n%10
+    if(d>f):
+        s=f
+        f=d
+    elif(d>s and d!=f):
+        s=d
+    n//=10
+print(s)
