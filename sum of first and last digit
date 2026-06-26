@@ -1,0 +1,9 @@
+n=int(input())
+l=n%10
+r=0
+while n>0:
+    d=n%10
+    r=r*10+d
+    n//=10
+f=r%10
+print(l+f)123
