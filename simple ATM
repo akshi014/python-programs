@@ -1,0 +1,8 @@
+b=int(input())
+w=int(input())
+nb=0
+if(w>b):
+    print("insufficient balance")
+else:
+    nb=b-w
+    print(nb)
