@@ -1,0 +1,7 @@
+n=input()
+if(n=="red"):
+    print("stop")
+elif(n=="yellow"):
+    print("get ready")
+else:
+    print("go")
