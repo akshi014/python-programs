@@ -1,0 +1,10 @@
+p1=input()
+p2=input()
+if(p1=="stone" and p2=="scissors"):
+    print("p1 wins")
+elif(p1=="paper" and p2=="stone"):
+    print("p1 wins")
+elif(p1=="scissor" and p2=="paper"):
+    print("p1 wins")
+else:
+    print("p2 wins")
