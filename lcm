@@ -1,0 +1,13 @@
+n1=int(input())
+n2=int(input())
+if n1>n2:
+    l=n1
+else:
+    l=n2
+while l>0:
+    if l%n1==0 and l%n2==0:
+        print(l)
+        break
+    else:
+        l+=1
+        
