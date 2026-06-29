@@ -1,0 +1,11 @@
+n=int(input())
+l=10
+while n>0:
+    d=n%10
+    if d>l:
+        print("not ascending order")
+        break
+    l=d
+    n//=10
+else:
+    print("ascending order")
