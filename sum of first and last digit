@@ -6,4 +6,4 @@ while n>0:
     r=r*10+d
     n//=10
 f=r%10
-print(l+f)123
+print(l+f)
