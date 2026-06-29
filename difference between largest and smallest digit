@@ -1,0 +1,16 @@
+n=int(input())
+l=1
+o=n
+while n>0:
+    d=n%10
+    if d>l:
+        l=d
+    n//=10
+s=9
+while o>0:
+    di=o%10
+    if di<s:
+        s=di
+    o//=10
+diff=l-s
+print(diff,end=" ")
