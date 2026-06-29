@@ -1,0 +1,11 @@
+n=int(input())
+s=n*n
+sum=0
+while s>0:
+    d=s%10
+    sum+=d
+    s//=10
+if sum==n:
+    print("neon")
+else:
+    print("no")
