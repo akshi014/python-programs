@@ -1,0 +1,15 @@
+n=int(input())
+o=n
+r=0
+while o>0:
+    di=o%10
+    r=r*10+di
+    o//=10
+num=0
+while r>0:
+    d=r%10
+    if d!=num:
+        print(d,end=" ")
+        num=d
+    r//=10
+    
