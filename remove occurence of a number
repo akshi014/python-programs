@@ -1,0 +1,10 @@
+n=int(input())
+t=int(input())
+while n>0:
+    d=n%10
+    if d==t:
+        n//=10
+        continue
+    else:
+        print(d,end="")
+    n//=10
