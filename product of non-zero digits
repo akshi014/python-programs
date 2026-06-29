@@ -1,0 +1,11 @@
+n=int(input())
+p=1
+while n>0:
+    d=n%10
+    if d==0:
+        n//=10
+        continue
+    else:
+        p*=d
+    n//=10
+print(p)
