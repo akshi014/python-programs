@@ -1,0 +1,8 @@
+h=int(input())
+l=int(input())
+num=int(input())
+for i in range(h,l-1,-1):
+    if i==num:
+        continue
+    else:
+        print(i,end=" ")
