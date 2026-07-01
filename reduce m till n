@@ -1,0 +1,6 @@
+n=int(input())
+m=int(input())
+print(n,end=" ")
+while n>=m:
+    n=n-m
+    print(n,end=" ")
